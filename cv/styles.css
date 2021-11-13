@@ -1,0 +1,79 @@
+/* Imagen de perfil */
+.centrado {
+    text-align: center;
+    margin: 0 auto 100px auto;
+}
+
+header {
+    background-image: url("data:image/jpeg;base64,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");
+}
+
+.sobre-mi {
+    position: relative;
+    top: -10px;
+}
+
+h1 {
+    letter-spacing: 10px;
+    font-family: 'Mochiy Pop One', sans-serif;;
+    font-weight: bold;
+    font-size: 35;
+    text-align: center;
+    line-height: 50px;
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+/* este es para ponerle el circulo negro a las listas */
+h2.list {
+    list-style-type:circle;
+}
+
+/* listas que no tengan punto negro */
+.punto {
+    list-style-type: none;
+}
+
+/* este es el espacio que dejo debajo en cada parrafo */
+.espaciado {
+    padding-left: 80px;
+}
+
+h2 {
+font-family:"Times New Roman";
+font-size: 20px;
+font-style: normal;
+color: #005677;
+text-align: left;
+background-color: #C4C4C4;
+}
+
+/* aca para darle un estilo a la primera parte de dats personales */
+strong {
+    font-style: italic;
+}
+
+.test {
+    list-style: none;
+}
+
+#example {
+    text-align: left;
+}
+
+#final {
+    padding: auto;
+}
+
+footer#final p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #005677;
+    
+}
+
+#lk {
+    border:1px solid black;
+    display: inline-block;
+}

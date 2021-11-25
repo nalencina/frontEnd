@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fc407f1c2a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Red+Hat+Mono:wght@300&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
     <title>Pet Shop</title>
@@ -13,67 +18,114 @@
 </head>
 
 <body>
-    <nav class="nav">
-        <span>Grandes ofertas en comederos</span>
-        <div class="derecha"> Español    ARG$</div>
-    </nav>
+    <!-- barra negra horizontal: falta configurar opcion de idioma-->
+    <div class="top-black">
+        <p id="grandes-ofertas">Grandes ofertas en comederos</p>
 
-    <nav>
-        <img src="img/Logo.png">
-        <ul>
-            <li><img src="img/pawprint 4.png" alt="patita">Categorías</li>
-            <li><img src="img/pawprint 4.png" alt="patita">Pets</li>
-            <li><img src="img/pawprint 4.png" alt="patita">Nosotros</li>
-            <li><img src="img/pawprint 4.png" alt="patita">Contactanos</li>
-        </ul>
-    </nav>
+        <div id="select-1">
+            <select>
+                <option>Español</option>
+                <option>Inglés</option>
+            </select>
 
-    <main>
-        <img src="img/bowl-and-pet-daities-on-green-background 1.png">
-        <p>¡Es un placer tenerte aquí!</p>
-        <p>¡Comederos en descuento!</p>
-        <bottom>COMEDEROS</bottom>
-        <i class="fab fa-amazon"></i>
-    </main>
-
-    <div>
-        <img src="img/pawprint 1.png">
-        <h1>Productos Destacados</h1>
-        <ul>
-            <li>Comederos</li>
-            <li>Accesorios</li>
-            <li>Comida</li>
-        </ul>
+            <select>
+                <option>ARG$</option>
+                <option>US$</option>
+            </select>
+        </div>
     </div>
 
-    <section>
-        <img src="img/churrasquito.png">
-        <h3>Juguete Churrasquito</h3>
-        <p>$150</p>
-    </section>
+    <!--barra del navegador naranja  -->
+    <header>
+        <nav class="top-2-orange">
+            <img id="logo" src="img/Logo.png">
+            <ul class="ul-items">
+                <li><img src="img/pawprint 4.png">Categorías</li>
+                <li><img src="img/pawprint 4.png">Pets</li>
+                <li><img src="img/pawprint 4.png"> Nosotros</li>
+                <li><img src="img/pawprint 4.png">Contactanos</li>
+            </ul>
+        </nav>
+    </header>
 
-    <section>
-        <img src="img/comedero.png">
-        <h3>Comedero para perro</h3>
-        <p>$250</p>
-    </section>
 
-    <section>
-        <img src="img/Huesito.png">
-        <h3>Juguete Huesito</h3>
-        <p>$650</p>
-    </section>
+    <!-- aca es la sección principal con la imagen -->
+    <div class="main">
+        <main>
+            <div id="es-un-placer">
+                <h2 id="h2">¡Es un placer tenerte aquí!</h2>
+            </div>
+            <p id="comedores">¡Comederos en descuento!</p>
+            <div id="bottom-comederos">
+                <button id="boton">COMEDEROS</button>
+            </div>
+        </main>
+    </div>
 
-    <div>
-        <h2>Contáctanos</h2>
-        <ul>
+    <div class="prod-dest">
+        <img src="img/pawprint 1.png">
+        <h1>Productos Destacados</h1>
+        <div class="div-ul-prod">
+            <ul id="li-pr">
+                <li>Comederos -</li>
+                <li>Accesorios -</li>
+                <li>Comida</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="cards">
+        <section>
+            <img src="img/churrasquito.png">
+            <h3>Juguete Churrasquito</h3>
+            <p>$150</p>
+        </section>
+
+        <section>
+            <img src="img/comedero.png">
+            <h3>Comedero para perro</h3>
+            <p>$250</p>
+        </section>
+
+        <section>
+            <img src="img/Huesito.png">
+            <h3>Juguete Huesito</h3>
+            <p>$650</p>
+        </section>
+
+    </div>
+
+    <div class="contact-form">
+
+        <div>
+            <h2>Contáctanos</h2>
+        </div>
+
+        <form action="/registro/contact" method="post">
+            <p>
+                <label for="usuario">Nombre y Apellido:</label>
+                <input type="text" name="usuario" id="usuario">
+            </p>
+            <p>
+                <label for="correo">Ingresá tu correo electrónico:</label>
+                <input type="email" name="email" id="correo">
+            </p>
+            <p>
+                <label for="celu">Teléfono:</label>
+                <input type="tel" name="celular" id="celu">
+            </p>
+
+            <p>
+                <button type="reset">Resetear</button>
+                <button type="submit">Enviar</button>
+            </p>
+        </form>
+        <!-- <ul>
             <li>Nombre y Apellido</li>
             <li>Ingresá tu correo electrónico</li>
             <li>Teléfono</li>
-        </ul>
+        </ul> -->
 
-        <bottom>Resetear</bottom>
-        <bottom>Enviar</bottom>
     </div>
 
     <footer>

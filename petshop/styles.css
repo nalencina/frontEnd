@@ -1,19 +1,118 @@
-.nav {
-    background-color: black;
-    position: absolute;
-width: 1024px;
-height: 20px;
-left: calc(50% - 1024px/2);
-top: 0px;
- color: white;
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
 }
 
-.idioma {
-    /* display: inline-block;
-    margin-right: 200px; */
-    padding-right: 5%
+.top-black {
+  background-color: #222222;
+  color: white;
 }
-.derecha {
-    text-align: right;
-    margin-right: 15%;
-    }
+
+#grandes-ofertas {
+  padding-left: 5%;
+  margin: 0 auto;
+}
+
+select {
+  color: white;
+  background-color: transparent;
+}
+
+#select-1 {
+  position:absolute; 
+  left:1700px; 
+  top:8px;
+}
+
+.top-2-orange {
+  background-color: #f0a83e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  padding-left: 42px;
+  padding-right: 42px;
+}
+
+#logo {
+  display: flex;
+  height: 23px;
+  width: 166px;
+}
+
+.ul-items {
+  display: flex;
+  list-style-type: none;
+  color: white;
+}
+
+
+.main {
+  display: flex;
+  background-image: url("img/bowl-and-pet-daities-on-green-background 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 409px;
+}
+
+#es-un-placer {
+  display: flex;
+  padding-left: 1500px;
+  padding-top: 150px;
+}
+
+#h2 {
+  display: flex;
+  background-color: white;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+#comedores {
+  display: flex;
+  padding-left: 1540px;
+}
+
+#bottom-comederos {
+  display: flex;  
+  padding-left: 1575px;
+}
+
+#boton {
+ display: flex;
+ border-radius: 5px;
+ padding: 15px;
+ background-color: #F0A83E;
+ color:white;
+}
+
+.prod-dest {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.div-ul-prod {
+  display: flex;
+  color: #666666;
+  font-size: 15px;
+  justify-content: center;
+}
+
+#li-pr {
+  display: flex;
+  list-style-type: none;
+}
+
+.cards {
+display: flex;
+justify-content: center;
+}
+
+.contact-form {
+  display: flex;
+  justify-content: center;
+}
